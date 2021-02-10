@@ -8,21 +8,25 @@ body {
   margin: 0;
 }
 
-.full-height {
+html .full-height,
+body .full-height {
   height: 100vh;
 }
 
-.flex-center {
+html .flex-center,
+body .flex-center {
   align-items: center;
   display: flex;
   justify-content: center;
 }
 
-.position-ref {
+html .position-ref,
+body .position-ref {
   position: relative;
 }
 
-.top-right {
+html .top-right,
+body .top-right {
   position: absolute;
   right: 10px;
   top: 18px;
@@ -32,11 +36,15 @@ body {
   text-align: center;
 }
 
-.title {
+.content .title {
   font-size: 84px;
 }
 
-.links > a {
+.content .m-b-md {
+  margin-bottom: 30px;
+}
+
+.content .links > a {
   color: #636b6f;
   padding: 0 25px;
   font-size: 13px;
@@ -44,9 +52,5 @@ body {
   letter-spacing: 0.1rem;
   text-decoration: none;
   text-transform: uppercase;
-}
-
-.m-b-md {
-  margin-bottom: 30px;
 }
 
