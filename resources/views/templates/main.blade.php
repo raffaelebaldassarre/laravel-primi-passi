@@ -17,3 +17,8 @@
         <div class="title m-b-md">
             Laravel
         </div>
+        <div class="links">
+            @yield('content')
+            </div>
+        </div>
+        </main>
