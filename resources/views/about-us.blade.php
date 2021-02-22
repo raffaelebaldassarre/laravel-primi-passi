@@ -1,9 +1,8 @@
-@include('templates.head')
-@include('templates.header')
-@include('templates.main')
-    <div class="links">
-            <a href="/">Home</a>
-        </div>
+@extends('layouts.app')
+@section('content')
+<div class="links">
+    <a href="/">Home</a>
     </div>
+</div>
 </main>
-@include('templates.footer')
+@endsection

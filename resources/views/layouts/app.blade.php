@@ -1,0 +1,5 @@
+@include('templates.head')
+@include('templates.header')
+@include('templates.main')
+@yield('content')
+@include('templates.footer')
